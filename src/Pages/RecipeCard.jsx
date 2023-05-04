@@ -16,7 +16,7 @@ const RecipeCard = ({ recipe }) => {
         toast('Add recipe to favorite!!')
     }
 
-    const { name, method, ingredients, pic, rating } = recipe;
+    const { chefName, cookingMethod, ingredients, chefPicture, rating } = recipe;
 
 
     return (
@@ -37,7 +37,7 @@ const RecipeCard = ({ recipe }) => {
                         </LazyLoad>
 
                         <Card.Body>
-                            <Card.Title className='fw-bold fs-2'> {name}</Card.Title>
+                            <Card.Title className='fw-bold fs-2'> {chefName}</Card.Title>
                             <Card.Text>
                                 <p > <span className='fw-bold'>Ingredients:</span>
                                     <ul>
@@ -48,7 +48,7 @@ const RecipeCard = ({ recipe }) => {
                                     </ul>
                                 </p>
 
-                                <p><small className='fw-bold'>Method of Cooking:</small> {method}</p>
+                                <p><small className='fw-bold'>Method of Cooking:</small> {cookingMethod}</p>
                                 <p> <span className='fw-bold'>Rating: </span> {rating}</p>
                                 <hr />
                                 <div className='d-flex justify-content-between'>

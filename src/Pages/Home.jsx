@@ -31,7 +31,7 @@ const Home = () => {
 
             {/* Chef details start*/}
             <div className='container'>
-                <h2 className='container text-center text-success my-4 fs-1 fw-bold'>Chef Details</h2>
+                <h2 className='container text-center text-success my-4 fs-1 fw-bold'>Chef Info</h2>
                 <Row xs={1} md={2} lg={3} className="g-4 ">
                     {
                         chefData.map(chef => <ChefDetails

@@ -11,11 +11,11 @@ const ViewRecipe = () => {
     const specificData = useLoaderData();
     // console.log(specificData);
     //chef details
-    const { id, name, pic, experience, likes, no_of_recipe, recipes, description } = specificData;
+    const { id, chefName, chefPicture, yearsOfExperience, likes, numberOfRecipes, recipes, details } = specificData;
     console.log(specificData);
 
     //recipe details
-    const { rating, ingredients, method } = recipes;
+    const { rating, ingredients, cookingMethod } = recipes;
 
 
 
@@ -26,15 +26,15 @@ const ViewRecipe = () => {
             <section className='container d-flex align-items-center justify-content-center '>
                 <Card className=''>
                     <Card.Body>
-                        <Card.Title className='fs-1 fw-bold text-danger text-center'>   {name}</Card.Title>
+                        <Card.Title className='fs-1 fw-bold text-danger text-center'>   {chefName}</Card.Title>
                         <Card.Text>
-                            {description}
+                            {details}
                         </Card.Text>
 
 
                         <Card.Subtitle className="mb-2 text-muted">
-                            <p>Experience: {experience}</p>
-                            <p>No. of Recipe:{no_of_recipe}</p>
+                            <p>Experience: {yearsOfExperience}</p>
+                            <p>No. of Recipe:{numberOfRecipes}</p>
                             <p>Likes: {likes}</p>
 
                         </Card.Subtitle>
@@ -43,7 +43,7 @@ const ViewRecipe = () => {
                 </Card>
                 <div className='p-4 '>
                     <LazyLoad height={200}>
-                    <Image className="d-block w-100 h-100  roundedCircle " src={pic} alt="" roundedCircle />
+                    <Image className="d-block w-100 h-100  roundedCircle " src={chefPicture} alt="" roundedCircle />
                     </LazyLoad>
                 </div>
             </section>

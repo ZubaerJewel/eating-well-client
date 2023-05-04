@@ -9,8 +9,7 @@ import LazyLoad from 'react-lazyload';
 const ChefDetails = ({ chef }) => {
     // console.log(chef);
 
-    const { id, name, pic, experience, likes, no_of_recipe
-    } = chef;
+    const { id, chefName, chefPicture, yearsOfExperience, likes,   numberOfRecipes } = chef;
 
     return (
         <div>
@@ -26,9 +25,9 @@ const ChefDetails = ({ chef }) => {
                     </LazyLoad>
 
                     <Card.Body>
-                        <Card.Title> {name}</Card.Title>
-                        <p>Experience: {experience}</p>
-                        <p>No. of Recipe:{no_of_recipe
+                        <Card.Title> {chefName}</Card.Title>
+                        <p>Experience: {yearsOfExperience}</p>
+                        <p>No. of Recipe:{numberOfRecipes
                         }</p>
                         <p>Likes: {likes}</p>
                         <Link to={`/viewRecipe/${id}`}> <Button variant="danger">View Recipe</Button></Link>

@@ -6,7 +6,7 @@ const LoadingPage = () => {
     return (
         <div className='loading  '>
            
-           <h1>Loading...</h1>
+           <h1>Loading....Loading...........</h1>
            <Spinner className='text-center  ' animation="grow" variant="primary" />
  
         </div>

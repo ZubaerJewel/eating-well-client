@@ -16,7 +16,7 @@ const ClientReview = () => {
                             <p className="card-text">Slate helps you see how<br /> many more days you need<br /> to work to reach your financial <br /> goal for the month and year.</p>
                         </div>
                         <img className=" w-25 card-img-top  mx-auto" src={client1} alt="..." /><br />
-                        <h5 className="card-title">Regina Miles</h5>
+                        <h5 className="card-title">Angela Miles</h5>
                         <p>Banker</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const ClientReview = () => {
                             <p className="card-text">Slate helps you see how<br /> many more days you need<br /> to work to reach your financial <br /> goal for the month and year.</p>
                         </div>
                         <img className=" w-25 card-img-top mx-auto" src={client2} alt="..." /><br />
-                        <h5 className="card-title">Jone Drake</h5>
+                        <h5 className="card-title">Jone abraham</h5>
                         <p>Banker</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const ClientReview = () => {
                             <p className="card-text">Slate helps you see how<br /> many more days you need<br /> to work to reach your financial <br /> goal for the month and year.</p>
                         </div>
                         <img className=" w-25 card-img-top mx-auto" src={client3} alt="..." /><br />
-                        <h5>Cret Yater</h5>
+                        <h5>Jonson Yater</h5>
                         <p>Banker</p>
                     </div>
                 </div>
