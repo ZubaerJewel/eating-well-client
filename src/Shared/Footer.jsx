@@ -1,6 +1,7 @@
  import React from 'react';
  import { Button, Card, Col, Image, Row } from 'react-bootstrap';
  import logo from  '../assets/logo/logo.jpg'
+import { Link } from 'react-router-dom';
 
  const Footer = () => {
     return (
@@ -15,22 +16,28 @@
           <p>There are many variations of passages of Chef Recipe available, but the majority have suffered alteration in some form, by injected humour.</p>
         </div>
        
-        <div class="col-md-3  my-5 ">
+        <div class="flex-column col-md-3  my-5 ">
           <h3 class="mt-4">Usefull Link</h3>
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Cases</p>
-          <p>Blog</p>
-          <p>Contact Us</p>
+          <p> <Link to="/">Home</Link></p>
+          <p><Link to="/blog">Blog</Link></p>
+          <p><Link to="/contact">Contact Us</Link></p>
+          <p><Link to="/registration">Sign Up</Link></p>
+          <p><Link to="/login">Log In</Link></p>
+         
+          
+          
+          
+          
+        
        </div>
        <div class="col-md-3  my-5">
         <h3 class="mt-4">Contact Now</h3>
-        <p>555 4th 5t NW, Washington<br/>
-          DC 20530, United States</p>
-        <p>+88 01750 000 000</p>
-        <p>+88 01750 000 000</p>
-        <p>info@gmail.com</p>
-        <p>info@gmail.com</p>
+        <p>82-Roypur,Bagherpara<br/>
+          7470-Jashore,Bangladesh</p>
+        <p>+88 01839666712</p>
+        <p>+88 01303407372</p>
+        <p>zubaer5jewel.16@gmail.com</p>
+        <p>jewel5zubaer.16@gmail.com</p>
      </div>
         <div class="col-md-3">
           <h3>Subscribe</h3>

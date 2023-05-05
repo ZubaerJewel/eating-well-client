@@ -40,7 +40,7 @@ const Header = () => {
     return (
         <div>
 
-            <Navbar expand="lg" className='d-flex bg-primary ' bg="primary" variant="dark">
+            <Navbar expand="lg" className='d-flex bg-dark ' bg="primary" variant="dark">
                 <Container fluid>
 
 

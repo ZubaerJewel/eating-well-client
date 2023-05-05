@@ -81,7 +81,7 @@ const Registration = () => {
 
 
                     <Button variant="warning" type='submit' className='text-black  w-100'>Create an account</Button>
-                    <p className='mt-2 text-center'>Don't have an account?<Link className='text-warning ' to='/login'> Login</Link></p>
+                    <p className='mt-2 text-center'>Are you have an account?<Link className='text-warning ' to='/login'> Login</Link></p>
 
 
                 </Form>
