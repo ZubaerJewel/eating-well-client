@@ -20,7 +20,7 @@ const ViewRecipe = () => {
 
 
     return (
-        <div>
+        <div >
 
             <h1 className='text-center mt-4 '>Chef  <span className='text-danger'>Details</span></h1>
             <section className='container d-flex align-items-center justify-content-center '>

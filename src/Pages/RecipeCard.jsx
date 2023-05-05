@@ -20,7 +20,7 @@ const RecipeCard = ({ recipe }) => {
 
 
     return (
-        <div className='  '>
+        <div className=' text-center '>
 
             <Row xs={1} md={2}
                 lg={3} className="g-4 my-5  " >

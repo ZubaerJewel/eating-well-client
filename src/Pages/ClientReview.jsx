@@ -9,7 +9,7 @@ const ClientReview = () => {
         <div className="container   bg-warning ">
             <h1 className="text-center text-success pt-5 fw-bold mb-5">Happy Clients Review</h1>
 
-            <div className=" bg-success row row-cols-1 row-cols-md-3 g-4 text-light ">
+            <div className=" bg-success row row-cols-1 row-cols-md-3 g-4 text-dark ">
                 <div className="col box-shadow ">
                     <div className="card text-center bg-success">
                         <div className="card-body">

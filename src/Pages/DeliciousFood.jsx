@@ -20,7 +20,7 @@ const DeliciousFood = () => {
                                 They know what they’re doing and what
                                  they’re talking about, and you can tell making the customers happy is their main priority.</p>
                             
-                            <Button className='bg-warning  '> View Food</Button>
+                            <Button className='bg-warning text-dark '> View Food</Button>
                         </Col>
 
                     </Row>
