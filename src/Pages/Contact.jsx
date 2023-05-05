@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div className="container mb-5">
         <div className="text-center my-5">
-          <h1> <span className='text-danger fw-bold'>Contact</span> With Us</h1>
+          <h1 className='text-success fw-bold'>  <span >Contact</span> With Us</h1>
           <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly.
              They know what they’re doing and what they’re talking about,
              and you can tell making the customers happy is their main priority.</p>
@@ -41,17 +41,24 @@ const Contact = () => {
                       <img className=" card-img-top logo-image w-25 h-25 mx-auto mt-4" src={address}  alt="..."/>
                       <div className="card-body">
                         <h5 className="card-title">Address</h5>
-                        <p className="card-text">A108 Adam Street,New York, NY 535022</p>
+                        <p className="card-text">82-Roypur,Bagherpara,
+7470-Jashore,Bangladesh</p>
                       </div>
                     </div>
                   </div>
                   
+
+
+
+
+
+
                   <div className="col">
                     <div className="card bg-body-secondary h-100">
                       <img  className="card-img-top logo-image w-25 h-25 mx-auto mt-4" src={call}  alt="..."/>
                       <div className="card-body">
                         <h5 className="card-title">Call Us</h5>
-                        <p className="card-text">+88 01750 00 00 00 <br/> +88 01750 00 00 00</p>
+                        <p className="card-text">+88 01839666712 <br/> +88 01303407372</p>
                        
                       </div>
                     </div>
@@ -61,7 +68,7 @@ const Contact = () => {
                       <img  className="card-img-top w-25 h-25 logo-image mx-auto mt-4" src={email}  alt="..."/>
                       <div className="card-body">
                         <h5 className="card-title">Email Us</h5>
-                        <p className="card-text">info@gmail.com <br/> info@gmail.com</p>
+                        <p className="card-text">zubaer5jewel.16@gmail.com<br/> jewel5zubaer.16@gmail.com</p>
                        
                       </div>
                     </div>

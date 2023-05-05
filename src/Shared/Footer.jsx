@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
     return (
         
             
-            <div class="container-fluid bg-dark text-white">
+            <div class="container-fluid bg-dark text-warning">
             <div class="row d-flex justify-content-center align-items-center mx-5 ">
         <div class="col-md-3 ">
           <div class="d-flex flex-row justify-content-start align-items-start ">
@@ -18,11 +18,11 @@ import { Link } from 'react-router-dom';
        
         <div class=" col-md-3  my-5 ">
           <h3 class="mt-4">Usefull Link</h3>
-          <p> <Link to="/">Home</Link></p>
-          <p><Link to="/blog">Blog</Link></p>
-          <p><Link to="/contact">Contact Us</Link></p>
-          <p><Link to="/registration">Sign Up</Link></p>
-          <p><Link to="/login">Log In</Link></p>
+          <p> <Link to="/"  className='text-warning'>Home</Link></p>
+          <p><Link to="/blog"  className='text-warning'>Blog</Link></p>
+          <p><Link to="/contact"  className='text-warning'>Contact Us</Link></p>
+          <p><Link to="/registration"  className='text-warning'>Sign Up</Link></p>
+          <p><Link to="/login"  className='text-warning'>Log In</Link></p>
          
           
           

@@ -20,7 +20,7 @@ const Blog = () => {
 
             <div ref={ref}>
                 <div className='container my-5'>
-                    <h2 className='text-primary fw-bold fs-2'>1.Tell us the differences between uncontrolled and controlled components.</h2>
+                    <h2 className='text-success fw-bold fs-2'>1.Tell us the differences between uncontrolled and controlled components.</h2>
                     <p className='m-3 p-2'> In React, components can be either controlled or uncontrolled. Here are the differences between the two:<br /><br />
 
                         <strong>1. Controlled Components:</strong>
@@ -31,7 +31,7 @@ const Blog = () => {
 
 
 
-                    <h2 className='text-primary fw-bold fs-2'>2. How to validate React props using PropTypes</h2>
+                    <h2 className='text-success fw-bold fs-2'>2. How to validate React props using PropTypes</h2>
                     <p className='m-3 p-2'>**** PropTypes is used for props validation. If some of the props aren't using the correct type that we assigned, we will get a console warning. After we specify validation patterns, we will set App. defaultProps.
                         <ul>
                             <li>PropTypes.any: The prop can be of any data type</li>
@@ -46,7 +46,7 @@ const Blog = () => {
                     </p>
 
 
-                    <h2 className='text-secondary fw-bold fs-2'>3. Tell us the difference between nodejs and express js.</h2>
+                    <h2 className='text-success fw-bold fs-2'>3. Tell us the difference between nodejs and express js.</h2>
                     <p>Node.js and Express.js are both JavaScript-based technologies used for building server-side applications. Here are the differences between the two:<br /><br />
 
                         <strong>1.Node.js:</strong>
@@ -58,7 +58,7 @@ const Blog = () => {
                     </p>
 
 
-                    <h2 className='text-primary fw-bold fs-2'>4. What is a custom hook, and why will you create a custom hook?</h2>
+                    <h2 className='text-success fw-bold fs-2'>4. What is a custom hook, and why will you create a custom hook?</h2>
                     <p> A custom hook is essentially a JavaScript function that uses built-in React hooks such as useState, useEffect, useContext, and more to provide some functionality that can be used by multiple components. Custom hooks can be used to manage state, handle side-effects, and perform other operations that require stateful logic.<br /><br />
 
                         We create custom hooks to avoid code repetition and make our code more modular and reusable. For example, if we find ourselves writing the same code repeatedly in different components, we can create a custom hook to abstract that code and use it across all the components that need that functionality.
