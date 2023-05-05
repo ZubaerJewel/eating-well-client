@@ -9,9 +9,7 @@ const Blog = () => {
  <div className='container d-flex justify-content-end me-4'>
  <Pdf targetRef={ref} filename="Blog.pdf">
                 {({ toPdf }) => (
-                    // <button onClick={toPdf} className="button ">
-                    //     Generate PDF
-                    // </button>
+                   
 
                     <Button variant="warning" onClick={toPdf} className="button my-4  justify-content-end"  >Generate PDF</Button>
 
@@ -23,11 +21,11 @@ const Blog = () => {
             <div ref={ref}>
                 <div className='container my-5'>
                     <h2 className='text-primary fw-bold fs-2'>1.Tell us the differences between uncontrolled and controlled components.</h2>
-                    <p className='m-3 p-2'>**** In React, components can be either controlled or uncontrolled. Here are the differences between the two:<br /><br />
+                    <p className='m-3 p-2'> In React, components can be either controlled or uncontrolled. Here are the differences between the two:<br /><br />
 
                         <strong>1. Controlled Components:</strong>
                         A controlled component is a component where React controls the state of the component. The component's value is controlled by React, which means that any updates to the component's value must go through React.<br /><br />
-                        <strong>   2. Uncontrolled Components:</strong>
+                        <strong>2. Uncontrolled Components:</strong>
                         An uncontrolled component is a component where the state of the component is handled by the DOM itself. The component's value is not controlled by React, which means that any updates to the component's value do not go through React.
                     </p>
 
@@ -49,7 +47,7 @@ const Blog = () => {
 
 
                     <h2 className='text-secondary fw-bold fs-2'>3. Tell us the difference between nodejs and express js.</h2>
-                    <p>**** Node.js and Express.js are both JavaScript-based technologies used for building server-side applications. Here are the differences between the two:<br /><br />
+                    <p>Node.js and Express.js are both JavaScript-based technologies used for building server-side applications. Here are the differences between the two:<br /><br />
 
                         <strong>1.Node.js:</strong>
                         Node.js is a runtime environment that allows developers to run JavaScript on the server-side. It provides an event-driven, non-blocking I/O model that makes it ideal for building scalable and high-performance applications.<br /><br />
@@ -61,7 +59,7 @@ const Blog = () => {
 
 
                     <h2 className='text-primary fw-bold fs-2'>4. What is a custom hook, and why will you create a custom hook?</h2>
-                    <p>**** A custom hook is essentially a JavaScript function that uses built-in React hooks such as useState, useEffect, useContext, and more to provide some functionality that can be used by multiple components. Custom hooks can be used to manage state, handle side-effects, and perform other operations that require stateful logic.<br /><br />
+                    <p> A custom hook is essentially a JavaScript function that uses built-in React hooks such as useState, useEffect, useContext, and more to provide some functionality that can be used by multiple components. Custom hooks can be used to manage state, handle side-effects, and perform other operations that require stateful logic.<br /><br />
 
                         We create custom hooks to avoid code repetition and make our code more modular and reusable. For example, if we find ourselves writing the same code repeatedly in different components, we can create a custom hook to abstract that code and use it across all the components that need that functionality.
                     </p>
