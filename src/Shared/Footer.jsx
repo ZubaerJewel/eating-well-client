@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
           <p>There are many variations of passages of Chef Recipe available, but the majority have suffered alteration in some form, by injected humour.</p>
         </div>
        
-        <div class="flex-column col-md-3  my-5 ">
+        <div class=" col-md-3  my-5 ">
           <h3 class="mt-4">Usefull Link</h3>
           <p> <Link to="/">Home</Link></p>
           <p><Link to="/blog">Blog</Link></p>

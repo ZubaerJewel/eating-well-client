@@ -31,7 +31,7 @@ const RecipeCard = ({ recipe }) => {
                         <LazyLoad height={200}>
                             <img
                                 className="d-block w-100   object-fit-cover border rounded img-fluid"
-                                src={pic}
+                                src={chefPicture}
                                 alt=""
                             />
                         </LazyLoad>

@@ -52,7 +52,7 @@ const ViewRecipe = () => {
 
 
             <div className='container  '>
-                <h1 className='text-center mt-4'>Recipe made by  <span className='text-danger'>{name}</span> </h1>
+                <h1 className='text-center mt-4'>Recipe made by  <span className='text-danger'>{chefName}</span> </h1>
               
               <div className=' '>
               {

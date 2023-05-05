@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
-import first from '../assets/react.svg'
+import first from '../assets/react.svg';
 import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 
@@ -16,7 +16,7 @@ const ChefDetails = ({ chef }) => {
 
 
             <Col >
-                <Card className='text-center '  >
+                <Card className='text-center bg-warning '  >
 
                     <LazyLoad height={200}>
                         <Card.Img 
