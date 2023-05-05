@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../public/logo.jpg'
+import logo from '../assets/logo/logo.jpg'
 import { FaBeer, FaUser } from 'react-icons/fa';
 import { AuthContext } from '../Provider/AuthProvider';
 import { toast } from 'react-toastify';

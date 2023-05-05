@@ -19,8 +19,11 @@ const ChefDetails = ({ chef }) => {
                 <Card className='text-center '  >
 
                     <LazyLoad height={200}>
-                        <Card.Img variant="top" style={{ height: '100px', width: '200px', borderRadius: '50%' }} src={pic}
-                            className='roundedCircle img-fluid mx-auto w-25 mt-2' />
+                        <Card.Img 
+                        variant="top" 
+                        style={{ height: '100px', width: '200px', borderRadius: '50%' }} 
+                        src={chefPicture}
+                        className='roundedCircle img-fluid mx-auto w-25 mt-2' />
 
                     </LazyLoad>
 

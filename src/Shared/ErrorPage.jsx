@@ -1,6 +1,6 @@
 import React from 'react';
 // import sadEmoji from '../assets/Sad-Face-Emoji.png';
-import log from '../../public/notFound.jpg'
+import log from '../assets/logo/notFound.jpg'
 import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
  

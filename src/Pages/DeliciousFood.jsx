@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../public/logo.jpg'
+import logo from '../assets/logo/logo.jpg'
 import { Button,Container, Card, Col, Image, Row } from 'react-bootstrap';
 const DeliciousFood = () => {
     return (

@@ -7,7 +7,7 @@ import Caresoul from './Caresoul';
 import Banner from './Banner';
 import Featured from './Featured';
 import ContactUs from './ContactUs';
-import logo from '../../public/logo.jpg'
+import logo from '../assets/logo/logo.jpg'
 import DeliciousFood from './DeliciousFood';
 import ClientReview from './ClientReview';
 
