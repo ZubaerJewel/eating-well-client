@@ -33,7 +33,7 @@ const ChefDetails = ({ chef }) => {
                         <p>No. of Recipe:{numberOfRecipes
                         }</p>
                         <p>Likes: {likes}</p>
-                        <Link to={`/viewRecipe/${id}`}> <Button variant="danger">View Recipe</Button></Link>
+                        <Link to={`/viewRecipe/${id}`}> <Button variant="success">View Recipe</Button></Link>
                     </Card.Body>
                 </Card>
             </Col>

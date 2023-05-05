@@ -22,8 +22,8 @@ const Header = () => {
     // console.log(user?.displayName);
     const userName = user?.displayName;
 
-    const activeLink = ' text-white me-4 text-decoration-none border border-warning rounded p-1 px-3   ';
-    const normalLink = 'text-white me-4 text-decoration-none';
+    const activeLink = ' text-warning me-4 text-decoration-none border border-warning rounded p-1 px-3   ';
+    const normalLink = 'text-warning me-4 text-decoration-none';
 
 
     const handleLogOut = () => {
@@ -46,7 +46,7 @@ const Header = () => {
 
                     <div className='ms-4'>
                         <img src={logo} style={{ height: '40px', width: '60px', borderRadius: '50%' }} alt="" />
-                        <Navbar.Brand href="#" className='ms-3'>eAtiNg <span className='text-warning fs-4'>wElL</span></Navbar.Brand>
+                        <Navbar.Brand href="#" className='ms-3 text-success'>EaTinG <span className='text-warning fs-4'>wEll</span></Navbar.Brand>
                     </div>
 
                     <div style={{ marginRight: '60px' }} className=''>
@@ -58,7 +58,7 @@ const Header = () => {
 
 
 
-                                <div className='text-white'>
+                                <div className='text-warning'>
 
                                     <NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/">Home</NavLink>
                                     <NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/blog">Blog</NavLink>
@@ -68,9 +68,9 @@ const Header = () => {
                                         user ?
                                             <>
                                                 <FaUser title={userName ? userName : 'Null'} className='fs-4 me-3 ms-5'></FaUser>
-                                                <Link to='/login'>  <Button onClick={handleLogOut} variant="danger">Logout</Button></Link>
+                                                <Link to='/login'>  <Button onClick={handleLogOut} variant="success">Logout</Button></Link>
                                             </> :
-                                            <Link to='/login'>  <Button variant="danger">Login</Button></Link>
+                                            <Link to='/login'>  <Button variant="success">Login</Button></Link>
                                     }
 
 

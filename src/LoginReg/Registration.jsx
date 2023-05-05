@@ -34,13 +34,13 @@ const Registration = () => {
         createAccount(email, password)
             .then(res => {
                 const user = res.user;
-                console.log(user);
+                // console.log(user);
                 // notify();
                 form.reset();
                 toast("Successfully registered!!!")
             })
             .catch((error) => {
-                console.log(error);
+                // console.log(error);
                 toast("  Registration Failed!!!")
             })
 
