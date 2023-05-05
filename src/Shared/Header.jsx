@@ -46,7 +46,7 @@ const Header = () => {
 
                     <div className='ms-4'>
                         <img src={logo} style={{ height: '40px', width: '60px', borderRadius: '50%' }} alt="" />
-                        <Navbar.Brand href="#" className='ms-3'>cHEf <span className='text-warning fs-4'>RecipE</span></Navbar.Brand>
+                        <Navbar.Brand href="#" className='ms-3'>eAtiNg <span className='text-warning fs-4'>wElL</span></Navbar.Brand>
                     </div>
 
                     <div style={{ marginRight: '60px' }} className=''>
