@@ -11,7 +11,7 @@ const AuthProvider = ({ children }) => {
     const [user,setUser]=useState(null);
     const [loading,setLoading]=useState(true);
     
-    // const user={name:'Jewel'};
+    // const user={name:'Zubaer Jewel'};
  
 
     //email and password
