@@ -68,7 +68,7 @@ const Header = () => {
                                         user ?
                                             <>
                                                 <FaUser title={userName ? userName : 'Null'} className='fs-4 me-3 ms-5'></FaUser>
-                                                <Link to='/login'>  <Button onClick={handleLogOut} variant="success">Logout</Button></Link>
+                                                <Link to='/login' >  <Button onClick={handleLogOut} className='text-warning' variant="success">Logout</Button></Link>
                                             </> :
                                             <Link to='/login'>  <Button variant="success">Login</Button></Link>
                                     }

@@ -16,7 +16,7 @@ const ChefDetails = ({ chef }) => {
 
 
             <Col >
-                <Card className='text-center bg-warning '  >
+                <Card className='text-center bg-success '  >
 
                     <LazyLoad height={200}>
                         <Card.Img 
@@ -33,7 +33,7 @@ const ChefDetails = ({ chef }) => {
                         <p>No. of Recipe:{numberOfRecipes
                         }</p>
                         <p>Likes: {likes}</p>
-                        <Link to={`/viewRecipe/${id}`}> <Button variant="success">View Recipe</Button></Link>
+                        <Link to={`/viewRecipe/${id}`}> <Button variant="warning">View Recipe</Button></Link>
                     </Card.Body>
                 </Card>
             </Col>

@@ -32,8 +32,8 @@ const ViewRecipe = () => {
                         </Card.Text>
 
 
-                        <Card.Subtitle className="mb-2 text-muted">
-                            <p>Experience: {yearsOfExperience}</p>
+                        <Card.Subtitle className="mb-2">
+                            <p >Experience: {yearsOfExperience}</p>
                             <p>No. of Recipe:{numberOfRecipes}</p>
                             <p>Likes: {likes}</p>
 
