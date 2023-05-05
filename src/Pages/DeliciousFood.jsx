@@ -5,7 +5,7 @@ import { Button,Container, Card, Col, Image, Row } from 'react-bootstrap';
 const DeliciousFood = () => {
     return (
         <div>
-             <div className='container pt-5  ' style={{ backgroundColor:'#f5f5f5',height:'400px',marginBottom:'50px' ,marginTop:'50px'}}>
+             <div className='container   bg-success' style={{ backgroundColor:'#f5f5f5',height:'400px' ,marginTop:'50px'}}>
                 
                 <Container >
                     
@@ -14,10 +14,13 @@ const DeliciousFood = () => {
                             <img src={logo} alt="placeholder" className="img-fluid h-50 w-75 order-1 order-lg-2" />
                         </Col>
                         <Col md={6}>
-                            <h1>Enjoy Your Healthy</h1>
-                            <h1>Delicious Food</h1>
-                            <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-                            <Button>View Food</Button>
+                            <h1 className='text-warning  '>Enjoy Your Healthy</h1>
+                            <h1 className='text-warning  '>Delicious Food</h1>
+                            <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly. 
+                                They know what they’re doing and what
+                                 they’re talking about, and you can tell making the customers happy is their main priority.</p>
+                            
+                            <Button className='bg-warning  '> View Food</Button>
                         </Col>
 
                     </Row>

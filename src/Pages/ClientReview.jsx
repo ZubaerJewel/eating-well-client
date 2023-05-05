@@ -6,7 +6,7 @@ import client3 from '../assets/person/client3.jpg'
 const ClientReview = () => {
     return (
 
-        <div className="container mb-5  bg-warning ">
+        <div className="container   bg-warning ">
             <h1 className="text-center text-success pt-5 fw-bold mb-5">Happy Clients Review</h1>
 
             <div className=" bg-success row row-cols-1 row-cols-md-3 g-4 text-light ">
@@ -18,8 +18,8 @@ const ClientReview = () => {
                                 I recommend to everyone! I would like to come back here again and again.</p>
                         </div>
                         <img className=" w-25 card-img-top  mx-auto" src={client1} alt="..." /><br />
-                        <h5 className="card-title">Angela Miles</h5>
-                        <p>Banker</p>
+                        <h5 className="card-title text-warning">Angela Miles</h5>
+                        <p className='text-warning'>Banker</p>
                     </div>
                 </div>
                 <div className="col box-shadow bg-success">
@@ -29,8 +29,8 @@ const ClientReview = () => {
                             food and service. Staff are extremely knowledgeable and make great recommendations.</p>
                         </div>
                         <img className=" w-25 card-img-top mx-auto" src={client2} alt="..." /><br />
-                        <h5 className="card-title">Jone abraham</h5>
-                        <p>Engineer</p>
+                        <h5 className="card-title text-warning">Jone abraham</h5>
+                        <p className='text-warning'>Engineer</p>
                     </div>
                 </div>
                 <div className="col box-shadow bg-success">
@@ -41,8 +41,8 @@ const ClientReview = () => {
                              and you can tell making the customers happy is their main priority.</p>
                         </div>
                         <img className=" w-25 card-img-top mx-auto" src={client3} alt="..." /><br />
-                        <h5>Jonson Yater</h5>
-                        <p>Doctor</p>
+                        <h5 className="card-title text-warning">Jonson Yater</h5>
+                        <p className='text-warning'>Doctor</p>
                     </div>
                 </div>
 

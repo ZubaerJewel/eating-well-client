@@ -11,7 +11,9 @@ const Contact = () => {
         <div className="container mb-5">
         <div className="text-center my-5">
           <h1> <span className='text-danger fw-bold'>Contact</span> With Us</h1>
-          <p>There are many variations of passages of chef recipe available,<br/> but the majority have suffered alteration in some form, by injected humour.</p>
+          <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly.
+             They know what they’re doing and what they’re talking about,
+             and you can tell making the customers happy is their main priority.</p>
         </div>
 
         {/* map */}
